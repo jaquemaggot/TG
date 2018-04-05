@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button>
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Novo Usuário
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="doClick()">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3" style="background-color:rgba(126, 151, 233, 0.644);">
+  <div class="spacer" style="width:300px;height:56px;" id="cadastroDeUsuRio-spacer9"></div>
+  <form id="cadastroDeUsuRio-form7">
+    <ion-item id="cadastroDeUsuRio-input11">
+      <ion-label>
+        Nome:
+      </ion-label>
+      <ion-input type="text" placeholder="nome"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:20px;" id="cadastroDeUsuRio-spacer7"></div>
+    <ion-item id="cadastroDeUsuRio-input12">
+      <ion-label>
+        Email:
+      </ion-label>
+      <ion-input type="email" placeholder="email"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:20px;" id="cadastroDeUsuRio-spacer6"></div>
+    <ion-item id="cadastroDeUsuRio-input13">
+      <ion-label>
+        Senha:
+      </ion-label>
+      <ion-input type="password" placeholder="senha"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:20px;" id="cadastroDeUsuRio-spacer8"></div>
+  </form>
+  <button id="cadastroDeUsuRio-button4" ion-button color="positive" block on-click="goToHome()">
+    Cadastrar
+  </button>
+</ion-content>

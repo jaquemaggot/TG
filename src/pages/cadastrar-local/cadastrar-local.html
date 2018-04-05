@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Cadastrar Local
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2" style="background-color:rgba(126, 151, 233, 0.644);">
+  <form id="cadastrarLocal-form2">
+    <ion-item id="cadastrarLocal-input4">
+      <ion-label>
+        Cep:
+      </ion-label>
+      <ion-input type="number" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:18px;" id="cadastrarLocal-spacer4"></div>
+    <ion-item id="cadastrarLocal-input5">
+      <ion-label>
+        Rua:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:18px;" id="cadastrarLocal-spacer3"></div>
+    <ion-item id="cadastrarLocal-input6">
+      <ion-label>
+        Bairro:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:18px;" id="cadastrarLocal-spacer5"></div>
+    <ion-item id="cadastrarLocal-input7">
+      <ion-label>
+        Cidade:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+  </form>
+  <div class="spacer" style="width:300px;height:10px;" id="cadastrarLocal-spacer5"></div>
+  <button id="cadastrarLocal-button2" ion-button color="azul" block style="font-size:25px;" on-click="goToLocaisCadastrados()">
+    Cadastrar
+  </button>
+</ion-content>
